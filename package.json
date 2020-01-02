@@ -1,9 +1,9 @@
 {
-  "name": "@azz/prettier-config",
-  "version": "1.0.0",
-  "description": "My personal Prettier config",
+  "name": "@coara/prettier-config",
+  "version": "1.0.1",
+  "description": "coara TM Prettier config",
   "main": "index.json",
-  "repository": "git@github.com:azz/prettier-config.git",
-  "author": "Lucas Azzola <lucas@azzola.dev>",
+  "repository": "git@github.com/coaraco/prettier-config.git",
+  "author": "coara.co",
   "license": "MIT"
 }

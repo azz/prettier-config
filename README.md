@@ -1,20 +1,29 @@
-# `@azz/prettier-config`
-
-> My personal [Prettier](https://prettier.io) config.
+# Prettier configuration rules
 
 ## Usage
 
-**Install**:
+### Install
 
 ```bash
-$ yarn add --dev @azz/prettier-config
+$ npm i @coara/prettier-config -D
 ```
 
-**Edit `package.json`**:
+### Use it
+
+You can configure in different ways.
+
+Adding the key `prettier` on your `package.json`
 
 ```jsonc
 {
+  "version": "1.0.3",
   // ...
-  "prettier": "@azz/prettier-config"
+  "prettier": "@coara/prettier-config"
 }
+```
+
+Or add the reference on your `.pretierrc` located at root of your directory
+
+```bash
+"@coara/prettier-config"
 ```
