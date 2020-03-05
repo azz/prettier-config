@@ -7,7 +7,7 @@
   "trailingComma": "all",
   "singleQuote": false,
   "semi": true,
-  "quoteProps": "consistent",
+  "quoteProps": "as-needed",
   "arrowParens": "avoid",
   "rangeStart": 0,
   "endOfLine": "lf"

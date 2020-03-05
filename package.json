@@ -1,6 +1,6 @@
 {
   "name": "@coara/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "coara TM Prettier config",
   "main": "index.json",
   "repository": "git@github.com/coaraco/prettier-config.git",
