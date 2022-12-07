@@ -1,9 +1,9 @@
 {
-  "name": "@azz/prettier-config",
-  "version": "1.0.0",
-  "description": "My personal Prettier config",
+  "name": "@massalabs/prettier-config-as",
+  "version": "0.0.1",
+  "description": " MassaLabs's AssemblyScript Prettier configuration",
   "main": "index.json",
-  "repository": "git@github.com:azz/prettier-config.git",
-  "author": "Lucas Azzola <lucas@azzola.dev>",
+  "repository": "https://github.com/massalabs/prettier-config-as",
+  "author": "Nathan SEVA <ns@massa.net>",
   "license": "MIT"
 }
