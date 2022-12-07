@@ -5,5 +5,10 @@
   "main": "index.json",
   "repository": "https://github.com/massalabs/prettier-config-as",
   "author": "Nathan SEVA <ns@massa.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "massa",
+    "prettier",
+    "config"
+  ]
 }
