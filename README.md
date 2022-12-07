@@ -1,13 +1,13 @@
-# `@azz/prettier-config`
+# `@massalabs/prettier-config-as`
 
-> My personal [Prettier](https://prettier.io) config.
+> MassaLabs's AssemblyScript [Prettier](https://prettier.io) configuration.
 
 ## Usage
 
 **Install**:
 
 ```bash
-$ yarn add --dev @azz/prettier-config
+npm install --save-dev @massalabs/prettier-config-as
 ```
 
 **Edit `package.json`**:
@@ -15,6 +15,6 @@ $ yarn add --dev @azz/prettier-config
 ```jsonc
 {
   // ...
-  "prettier": "@azz/prettier-config"
+  "prettier": "@massalabs/prettier-config-as"
 }
 ```
