@@ -5,5 +5,10 @@
   "main": "index.json",
   "repository": "git@github.com/coaraco/prettier-config.git",
   "author": "coara.co",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^2.8.6",
+    "prettier-plugin-organize-attributes": "^0.0.5",
+    "stylelint-prettier": "^3.0.0"
+  }
 }

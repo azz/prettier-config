@@ -10,5 +10,23 @@
   "quoteProps": "as-needed",
   "arrowParens": "avoid",
   "rangeStart": 0,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "bracketSameLine": false,
+  "htmlWhitespaceSensitivity": "ignore",
+  "plugins": ["prettier-plugin-organize-attributes"],
+  "attributeGroups": [
+    "$ANGULAR_STRUCTURAL_DIRECTIVE",
+    "$DEFAULT",
+    "$ANGULAR_INPUT",
+    "$ANGULAR_OUTPUT"
+  ],
+  "attributeSort": "ASC",
+  "overrides": [
+    {
+        "files": ["*.html", "*.scss", "*.json"],
+        "options": {
+            "tabWidth": 4
+        }
+    }
+  ]
 }
