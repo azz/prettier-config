@@ -1,9 +1,9 @@
 
 
-class Cat {
+class Mow {
 
     constructor() {
-        thiss .name = '花花';
+        this .name = '花花';
     }
 
     say() {
@@ -11,8 +11,8 @@ class Cat {
     }
 
     eat() {
-        this.saqy();
+        this.say();
     }
 }
 
-module.exports.Cat = Cat;
+module.exports.Cat = Mow;
