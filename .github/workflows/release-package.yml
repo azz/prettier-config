@@ -18,6 +18,8 @@ jobs:
           version: 6
       - run: pnpm i
       - run: pnpm test
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   publish-gpr:
     needs: build
