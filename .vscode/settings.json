@@ -1,4 +1,7 @@
 {
     "files.autoSave": "onFocusChange",
     "editor.codeLens": true,
+    "cSpell.words": [
+        "yangbing"
+    ],
 }
