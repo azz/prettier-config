@@ -28,7 +28,7 @@ jobs:
       - run: pnpm i
       - run: pnpm test
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: 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
 
   publish-gpr:
     needs: build
