@@ -15,12 +15,12 @@ jobs:
           # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, 
           # and set up auth to read in from env.NODE_AUTH_TOKEN.
           # Default: ''
-          registry-url: https://npm.pkg.github.com/
+          # registry-url: https://npm.pkg.github.com/
 
           # Optional scope for authenticating against scoped registries. 
           # Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/).
           # Default: ''
-          scope: '@yangbing007'
+          # scope: '@yangbing007'
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.4.0
         with:
