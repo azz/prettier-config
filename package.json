@@ -11,5 +11,8 @@
   },
   "publishConfig": {
     "@yangbing007:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@yangbing007/learn-github-package": "1.0.0"
   }
 }
