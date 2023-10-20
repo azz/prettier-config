@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@yangbing007/learn-github-package':
-    specifier: 1.0.0
+    specifier: ^1.0.0
     version: 1.0.0
 
 packages:
