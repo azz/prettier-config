@@ -1,9 +1,15 @@
 {
-  "name": "@yangbing/prettier-config",
+  "name": "@yangbing007/prettier-config",
   "version": "1.0.0",
   "description": "My personal Prettier config",
   "main": "index.json",
-  "repository": "git@github.com:azz/prettier-config.git",
-  "author": "Lucas Azzola <lucas@azzola.dev>",
-  "license": "MIT"
+  "repository": "git@github.com:yangbing007/prettier-config.git",
+  "author": "bing <bingsea@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "publishConfig": {
+    "@yangbing007:registry": "https://npm.pkg.github.com"
+  }
 }
