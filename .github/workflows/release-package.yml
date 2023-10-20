@@ -16,7 +16,7 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
         with:
           version: 6
-      - run: pnpm ci
+      - run: pnpm i
       - run: pnpm test
 
   publish-gpr:
@@ -35,7 +35,7 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
         with:
           version: 8
-      - run: pnpm ci
+      - run: pnpm i
       - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
