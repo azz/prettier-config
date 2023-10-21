@@ -27,8 +27,8 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
         with:
           version: 8
-      - run: pnpm i
-      - run: pnpm test
+      - run: npm i
+      - run: npm test
 
   publish-gpr:
     needs: build
@@ -46,7 +46,7 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
         with:
           version: 8
-      - run: pnpm i
-      - run: pnpm publish --no-git-checks
+      - run: npm i
+      - run: npm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
