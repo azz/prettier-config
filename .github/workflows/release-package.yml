@@ -8,7 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NPM_AUTH_TOKEN: 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
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
@@ -27,8 +26,8 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
         with:
           version: 8
-      - run: npm i
-      - run: npm test
+      - run: pnpm i
+      - run: pnpm test
 
   publish-gpr:
     needs: build
@@ -46,7 +45,7 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
         with:
           version: 8
-      - run: npm i
-      - run: npm publish --no-git-checks
+      - run: pnpm i
+      - run: pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
