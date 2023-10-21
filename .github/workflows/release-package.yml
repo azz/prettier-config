@@ -35,6 +35,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          # 要想在actions中发布到 GitHub Packages，必须设置 registry-url 和 scope, 在package.json中配置publishConfig不起作用
           registry-url: https://npm.pkg.github.com/
           scope: '@yangbing007'
       - run: npm i

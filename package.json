@@ -9,9 +9,6 @@
   "scripts": {
     "test": "exit 0"
   },
-  "publishConfig": {
-    "@yangbing007:registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "@john-lone/learn-github-package": "^1.0.0"
   }
